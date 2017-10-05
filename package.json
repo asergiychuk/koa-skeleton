@@ -1,0 +1,19 @@
+{
+  "name": "estat",
+  "version": "0.0.1",
+  "description": "Statistics facade",
+  "author": "Andrii Serhiichuk <andrey.sergiychuk@es.bet>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "docker": "node forever.js"
+  },
+  "dependencies": {
+    "config": "^1.26.2",
+    "forever-monitor": "^1.7.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^7.2.1"
+  }
+}
